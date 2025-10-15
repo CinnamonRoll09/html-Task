@@ -21,7 +21,7 @@ body{
 }
 
 #wel {
-    margin: 30px 0px;
+    margin: 30px 10px;
     padding: 30px 50px;
     font-size: 5vh;
     font-family: "Zilla Slab Highlight", serif;
@@ -67,4 +67,5 @@ body{
 #e404:hover {
     color: aliceblue;
 }
+
 
