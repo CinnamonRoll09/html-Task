@@ -50,14 +50,11 @@ body{
 }
 
 #e404 {
-    padding: 0%;
+    padding: 0% 0% 2% 2%;
     margin: 0%;
+    text-decoration: none;
     color: black;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    font-size: 40vh;
     font-family: "Rubik Doodle Shadow", system-ui;
     font-weight: 1;
     font-style: normal;
@@ -68,4 +65,9 @@ body{
     color: aliceblue;
 }
 
-
+.eo404 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
