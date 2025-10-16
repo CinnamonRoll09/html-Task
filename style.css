@@ -45,6 +45,7 @@ h1, p, .aa {
     padding: 0%;
     cursor: pointer;
     text-decoration: none;
+    translate: 15px 15px;
     position: relative;
     z-index: 2;
     font-family: "Rubik Doodle Shadow", system-ui;
@@ -109,4 +110,5 @@ a {
 
 p:hover, a:hover, .a4:hover {
     color: aliceblue;
+
 }
