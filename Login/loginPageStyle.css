@@ -1,0 +1,109 @@
+body {
+    background-color: brown;
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    /* background-color: peru; */
+    height: 50vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    border: 7px black solid;
+    border-radius: 7px;
+
+}
+
+.welcomebox {
+    /* background-color: azure; */
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputfeild {
+    /* background-color: beige; */
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.usernamebox {
+    /* background-color: rgb(245, 210, 164); */
+    padding: 1px 15px 0 10px;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.passwordbox {
+    /* background-color: rgb(215, 166, 102); */
+    padding: 0 15px 0 10px;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome {
+    /* background-color: violet; */
+    margin: 0%;
+    padding: 0%;
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 700;
+    font-size: 7vh;
+}
+
+p {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 400;
+    font-size: 5vh;
+}
+
+.inputs {
+    height: 40%;
+    width: 100%;
+    background-color: rgba(197, 102, 0, 0);
+    outline: none;
+    border: 5px black solid;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    font-family: "Zilla Slab Highlight", serif;
+    font-weight: 700;
+    font-size: 5vh;
+}
+
+span {
+    border: 1px black solid;
+    border-width: 4px 20.2vw;
+    transform: translate(0px, 25px);
+}
+
+.buttonbox {
+    /* background-color: cadetblue; */
+    margin: 0 7px 0 7px;
+    position: relative;
+}
+
+.button {
+    background-color: black;
+    width: 30px;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    transform: translate(13.3px, -13px);
+}
